@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/signup' => 'users#new'
   get '/contact' => 'pages#contact'
   get '/about' => 'pages#about'
   get '/help' => 'pages#help'
